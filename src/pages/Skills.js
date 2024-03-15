@@ -33,7 +33,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.25rem_1.25rem] sm:bg-[length:2.25rem_2.25rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/javascript.png")'
             }}
@@ -60,7 +60,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1rem_1rem] sm:bg-[length:2rem_2rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/tailwind.png")'
             }}
@@ -69,7 +69,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.25rem_1.25rem] sm:bg-[length:2rem_2rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/bootstrap.png")'
             }}
