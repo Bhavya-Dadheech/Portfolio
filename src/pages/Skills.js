@@ -4,16 +4,18 @@ const Skills = ({ innerRef }) => {
   return (
     <div
       ref={innerRef}
-      className="flex flex-col gap-3 items-center border rounded-[2rem] p-[5rem] pt-[0.5rem] bg-[#2d2d2d]"
+      className="flex flex-col gap-3 items-center border rounded-[2rem] p-[2rem] sm:p-[5rem] pt-[0.5rem] bg-[#2d2d2d]"
     >
-      <span className="w-[7rem] text-center p-2 bg-[#333333] rounded-xl text-md text-white p-2">Skills</span>
-      <span className="text-3xl text-center text-green-400 w-[30rem]">
+      <span className="w-[6rem] sm:w-[7rem] text-center p-2 bg-[#333333] rounded-xl text-xs sm:text-base text-white p-2">
+        Skills
+      </span>
+      <span className="text-lg sm:text-3xl text-center text-green-400">
         Skills that I bring and Tools that I'm good with:
       </span>
-      <div className="flex gap-5 mt-6 flex-wrap	w-[45rem] items-center justify-center">
+      <div className="flex gap-3 sm:gap-5 mt-6 flex-wrap w-[90vw] sm:w-[45vw] items-center justify-center">
         <div className="text-center flex flex-col items-center justify-between h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/html.png")'
             }}
@@ -22,7 +24,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/css.png")'
             }}
@@ -31,7 +33,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/javascript.png")'
             }}
@@ -40,7 +42,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/angular.png")'
             }}
@@ -49,7 +51,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/react.png")'
             }}
@@ -58,7 +60,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/tailwind.png")'
             }}
@@ -67,7 +69,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/bootstrap.png")'
             }}
@@ -76,7 +78,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/github.png")'
             }}
@@ -85,7 +87,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/figma.png")'
             }}
@@ -94,7 +96,7 @@ const Skills = ({ innerRef }) => {
         </div>
         <div className="text-center flex flex-col items-center justify-between  h-[5rem]">
           <div
-            className="mx-2 w-[3rem] h-[3rem] rounded-[1rem] border-[3px] border-green-400 bg-white bg-contain bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
             style={{
               backgroundImage: 'url("./images/postman.png")'
             }}

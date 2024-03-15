@@ -14,8 +14,15 @@ function App() {
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
-  const scrollToRef = ref => {
-    const yOffset = -100;
+  const scrollToRef = (ref) => {
+    let yOffset = -100; // Default yOffset
+
+    // Check viewport width
+    if (window.innerWidth < 768 && ref !== homeRef) {
+      yOffset = -350; // Adjusted yOffset for smaller screens (you can adjust this value as needed)
+      console.log("not here");
+    }
+
     const y = ref.current.getBoundingClientRect().top + window.scrollY + yOffset;
     window.scrollTo({ top: y, behavior: "smooth" });
   };

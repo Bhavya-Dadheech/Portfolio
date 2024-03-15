@@ -3,9 +3,11 @@ import React from "react";
 const Projects = ({ innerRef }) => {
   return (
     <div ref={innerRef} className="flex flex-col m-16 w-[90vw] items-center justify-center gap-5">
-      <span className="w-[7rem] text-center p-2 bg-[#2e2e2e] rounded-xl text-md text-white p-2">Work</span>
-      <span className="text-3xl text-green-400">Applications I've built so far</span>
-      <div className="flex items-center justify-center gap-10 m-8 w-[90vw]">
+      <span className="w-[6rem] sm:w-[7rem] text-center p-2 bg-[#333333] rounded-xl text-xs sm:text-base text-white p-2">
+        Work
+      </span>
+      <span className="text-lg sm:text-3xl text-green-400">Applications I've built so far</span>
+      <div className="flex flex-wrap items-center justify-center gap-10 m-8 w-[90vw]">
         {/* #1 */}
         <div className="flex flex-col items-start border rounded-3xl text-white w-[20rem] h-[25rem]">
           <video
