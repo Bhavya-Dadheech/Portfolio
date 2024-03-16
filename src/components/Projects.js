@@ -25,9 +25,9 @@ const Projects = ({ innerRef }) => {
           <div className="flex flex-col items-start text-white p-4 gap-3">
             <span className="font-medium text-lg">ProductivityPulse</span>
             <span className="text-gray-300 text-xs h-[6rem]">
-              Comprehensive task management application that combines Angular for the frontend and Spring Boot (Java)
-              for the backend. Developed with a primary focus on mastering the creation of RESTful APIs in Spring Boot,
-              this project offers a robust platform for managing tasks efficiently.
+              Comprehensive to-do list application that combines Angular for the frontend and Spring Boot (Java) for the
+              backend. Developed with a primary focus on mastering the creation of RESTful APIs in Spring Boot, this
+              project offers a robust platform for managing tasks efficiently.
             </span>
             <div className="text-gray-300 text-xs flex flex-row gap-2">
               <span className="px-1 py-0.5 rounded-md bg-[#3b3b3b]">HTML</span>
