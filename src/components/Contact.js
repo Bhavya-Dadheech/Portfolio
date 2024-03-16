@@ -36,7 +36,7 @@ const Contact = ({ innerRef }) => {
           </a>
         </div>
         <div className="flex flex-row items-start justify-center">
-          <a className="text-white text-sm sm:text-lg" href="tel:6031112298" alt="">
+          <a className="text-white text-sm sm:text-lg" href="tel:7597704868" alt="">
             <img
               alt=""
               src={phone}
