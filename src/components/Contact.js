@@ -36,12 +36,13 @@ const Contact = ({ innerRef }) => {
           </a>
         </div>
         <div className="flex flex-row items-start justify-center">
-          <img
-            alt=""
-            src={phone}
-            className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
-          />
-          <span className="text-white text-sm sm:text-lg">+91 7597704868</span>
+          <a className="text-white text-sm sm:text-lg" href="tel:6031112298" alt="">
+            <img
+              alt=""
+              src={phone}
+              className="mx-2 sm:mx-4 w-[2rem] h-[2rem] sm:w-[3rem] sm:h-[3rem] rounded-[.75rem] sm:rounded-[1rem] border-[3px] border-green-400 bg-white bg-[length:1.5rem_1.5rem] sm:bg-[length:2.5rem_2.5rem] bg-no-repeat bg-center hover:scale-110 transform transition-transform duration-100"
+            />
+          </a>
         </div>
         <div className="flex flex-row items-start justify-center">
           <img
