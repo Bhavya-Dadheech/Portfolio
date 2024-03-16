@@ -1,5 +1,5 @@
 import React from "react";
-
+import myResume from "../Resume/Bhavya-Dadheech.pdf";
 const Navbar = ({ scrollToRef, homeRef, experienceRef, skillsRef, projectsRef, contactRef }) => {
   return (
     <>
@@ -41,12 +41,7 @@ const Navbar = ({ scrollToRef, homeRef, experienceRef, skillsRef, projectsRef, c
           </div>
         </div>
 
-        <a
-          className="hover:scale-110 transform transition-transform duration-100 "
-          href="./images/Bhavya Dadheech.pdf"
-          title=""
-          download
-        >
+        <a className="hover:scale-110 transform transition-transform duration-100 " href={myResume} title="" download>
           <button className="hover:text-white bg-green-400 text-black px-4 py-1 rounded-xl">Resume ⬇</button>
         </a>
       </div>
