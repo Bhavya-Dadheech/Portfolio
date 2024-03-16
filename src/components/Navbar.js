@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../Resume/Bhavya-Dadheech.pdf";
+import myResume from "../Resume/Bhavya Dadheech.pdf";
 const Navbar = ({ scrollToRef, homeRef, experienceRef, skillsRef, projectsRef, contactRef }) => {
   return (
     <>

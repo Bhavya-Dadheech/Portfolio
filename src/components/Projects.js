@@ -3,7 +3,7 @@ import productivitypulse from "../images/productivitypulse.mp4";
 import nweshorizon from "../images/nweshorizon.mp4";
 import textutils from "../images/textutils.mp4";
 import githubImg from "../images/github.png";
-
+import portfolio from "../images/portfolio.mp4";
 const Projects = ({ innerRef }) => {
   return (
     <div ref={innerRef} className="flex flex-col m-16 w-[90vw] items-center justify-center gap-5">
@@ -103,6 +103,39 @@ const Projects = ({ innerRef }) => {
             </div>
             <a
               href="https://github.com/Bhavya-Dadheech/TextUtils"
+              className="text-white text-[.65rem] flex flex-row gap-1"
+            >
+              <img src={githubImg} alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
+              View Code
+            </a>
+          </div>
+        </div>
+        {/* #4 */}
+        <div className="flex flex-col items-start border rounded-3xl text-white w-[20rem] h-[25rem]">
+          <video
+            src={portfolio}
+            width="600"
+            height="300"
+            controls="controls"
+            autoPlay={true}
+            className="rounded-t-3xl w-[20rem] h-[12rem]"
+          />
+          <div className="flex flex-col items-start text-white p-4 gap-3">
+            <span className="font-medium text-lg">Portfolio</span>
+            <span className="text-gray-300 text-xs h-[6rem]">
+              My personal portfolio built with React and styled using Tailwind CSS! This portfolio showcases my skills
+              and projects in a visually appealing and responsive manner. Feel free to explore the codebase, dive into
+              the projects, and get inspired for your own web development journey.
+            </span>
+            <div className="text-gray-300 text-xs flex flex-row gap-2">
+              <span className="px-1 py-0.5 rounded-md bg-[#3b3b3b]">HTML</span>
+              <span className="px-1 py-0.5 rounded-md bg-[#3b3b3b]">CSS</span>
+              <span className="px-1 py-0.5 rounded-md bg-[#3b3b3b]">JavaScript</span>
+              <span className="px-1 py-0.5 rounded-md bg-[#3b3b3b]">React</span>
+              <span className="px-1 py-0.5 rounded-md bg-[#3b3b3b]">Tailwind</span>
+            </div>
+            <a
+              href="https://github.com/Bhavya-Dadheech/Portfolio"
               className="text-white text-[.65rem] flex flex-row gap-1"
             >
               <img src={githubImg} alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
