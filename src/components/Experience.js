@@ -1,12 +1,13 @@
 import React from "react";
+import person from "../images/person.jpg";
 
 const Experience = ({ innerRef }) => {
   return (
     <div
       ref={innerRef}
-      className="flex flex-col sm:flex-row m-16 w-[90vw] items-center justify-center sm:items-start sm:justify-start gap-[1rem] sm:gap-[5rem]"
+      className="flex flex-col sm:flex-row my-16 mx-4 items-center justify-center sm:items-start sm:justify-start gap-[1rem] sm:gap-[5rem]"
     >
-      <img src="./images/40770.jpg" alt="" className="w-[45vw] sm:w-[15vw] rounded-full" />
+      <img src={person} alt="" className="w-[45vw] sm:w-[15vw] rounded-full" />
       <div className="flex flex-col items-center justify-center sm:items-start sm:justify-start gap-2">
         <span className="w-[6rem] sm:w-[7rem] text-center p-2 bg-[#333333] rounded-xl text-xs sm:text-base text-white p-2">
           Experience

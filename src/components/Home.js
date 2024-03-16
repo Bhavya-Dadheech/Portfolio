@@ -1,4 +1,5 @@
 import React from "react";
+import tech from "../images/tech.jpg";
 
 const Home = ({ innerRef }) => {
   return (
@@ -15,7 +16,7 @@ const Home = ({ innerRef }) => {
           cutting-edge technologies.
         </span>
       </div>
-      <img src="./images/4402130.jpg" alt="" className="w-[30vw] rounded-3xl" />
+      <img src={tech} alt="" className="w-[30vw] rounded-3xl" />
     </div>
   );
 };

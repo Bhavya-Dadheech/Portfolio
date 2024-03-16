@@ -1,4 +1,8 @@
 import React from "react";
+import productivitypulse from "../images/productivitypulse.mp4";
+import nweshorizon from "../images/nweshorizon.mp4";
+import textutils from "../images/textutils.mp4";
+import githubImg from "../images/github.png";
 
 const Projects = ({ innerRef }) => {
   return (
@@ -11,7 +15,7 @@ const Projects = ({ innerRef }) => {
         {/* #1 */}
         <div className="flex flex-col items-start border rounded-3xl text-white w-[20rem] h-[25rem]">
           <video
-            src="./images/productivitypulse.mp4"
+            src={productivitypulse}
             width="600"
             height="300"
             controls="controls"
@@ -36,7 +40,7 @@ const Projects = ({ innerRef }) => {
               href="https://github.com/Bhavya-Dadheech/ProductivityPulse"
               className="text-white text-[.65rem] flex flex-row gap-1"
             >
-              <img src="./images/github.png" alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
+              <img src={githubImg} alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
               View Code
             </a>
           </div>
@@ -44,7 +48,7 @@ const Projects = ({ innerRef }) => {
         {/* #2 */}
         <div className="flex flex-col items-start border rounded-3xl text-white w-[20rem] h-[25rem]">
           <video
-            src="./images/nweshorizon.mp4"
+            src={nweshorizon}
             width="600"
             height="300"
             controls="controls"
@@ -69,7 +73,7 @@ const Projects = ({ innerRef }) => {
               href="https://github.com/Bhavya-Dadheech/News-Horizon"
               className="text-white text-[.65rem] flex flex-row gap-1"
             >
-              <img src="./images/github.png" alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
+              <img src={githubImg} alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
               View Code
             </a>
           </div>
@@ -77,7 +81,7 @@ const Projects = ({ innerRef }) => {
         {/* #3 */}
         <div className="flex flex-col items-start border rounded-3xl text-white w-[20rem] h-[25rem]">
           <video
-            src="./images/textutils.mp4"
+            src={textutils}
             width="600"
             height="300"
             controls="controls"
@@ -101,7 +105,7 @@ const Projects = ({ innerRef }) => {
               href="https://github.com/Bhavya-Dadheech/TextUtils"
               className="text-white text-[.65rem] flex flex-row gap-1"
             >
-              <img src="./images/github.png" alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
+              <img src={githubImg} alt="" className="bg-white rounded-full w-[1rem] h-[1rem]" />
               View Code
             </a>
           </div>

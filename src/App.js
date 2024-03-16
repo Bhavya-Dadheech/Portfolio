@@ -1,11 +1,12 @@
 import "./App.css";
-import { useRef } from "react";
-import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
-import Skills from "./pages/Skills";
-import Home from "./pages/Home";
-import Navbar from "./pages/Navbar";
+import { useRef, useState, useEffect } from "react";
+import NET from "vanta/dist/vanta.net.min";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 function App() {
   const homeRef = useRef(null);
@@ -27,8 +28,32 @@ function App() {
     window.scrollTo({ top: y, behavior: "smooth" });
   };
 
+  // const [vantaEffect, setVantaEffect] = useState(null);
+  // const myRef = useRef(null);
+
+  // useEffect(() => {
+  //   if (!vantaEffect) {
+  //     setVantaEffect(
+  //       NET({
+  //         el: myRef.current,
+  //         mouseControls: true,
+  //         touchControls: true,
+  //         gyroControls: false,
+  //         scale: 1.0,
+  //         scaleMobile: 1.0
+  //       })
+  //     );
+  //   }
+
+  //   return () => {
+  //     if (vantaEffect) vantaEffect.destroy();
+  //   };
+  // }, [vantaEffect]);
+
   return (
     <div className="w-full h-full flex flex-col justify-center items-center">
+      {/* <div className="vanta-container" ref={myRef}></div> */}
+
       {/* NavBar */}
       <Navbar
         scrollToRef={scrollToRef}
