@@ -19,9 +19,7 @@ const Skills = ({ innerRef }) => {
       <span className="w-[6rem] sm:w-[7rem] text-center p-2 bg-[#333333] rounded-xl text-xs sm:text-base text-white p-2">
         Skills
       </span>
-      <span className="text-lg sm:text-3xl text-center text-green-400 px-2">
-        Skills that I bring and Tools that I'm good with:
-      </span>
+      <span className="text-lg sm:text-3xl text-center text-green-400 px-2">Areas of Expertise</span>
       <div className="flex gap-2 sm:gap-5 mt-6 flex-wrap w-[90vw] sm:w-[45vw] items-center justify-center py-4 sm:py-0">
         <div className="text-center flex flex-col items-center justify-between h-[4rem] sm:h-[5rem]">
           <img
