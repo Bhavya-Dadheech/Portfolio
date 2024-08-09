@@ -12,7 +12,7 @@ const Home = ({ innerRef }) => {
         <span className="text-white text-2xl sm:text-6xl font-semibold">Bhavya Dadheech</span>
         <span className="text-gray-400 text-sm sm:text-2xl max-w-[50vw]">
           A Passionate <span className="text-green-400 text-sm sm:text-2xl max-w-[50vw]">Front-End Web Developer</span>{" "}
-          with 2 years of experience specializing in crafting responsive and mobile-friendly web applications using
+          with 1.5 years of experience specializing in crafting responsive and mobile-friendly web applications using
           cutting-edge technologies.
         </span>
       </div>

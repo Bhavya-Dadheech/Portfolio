@@ -13,7 +13,7 @@ const Experience = ({ innerRef }) => {
           Experience
         </span>
         <span className="hidden sm:inline-flex text-3xl text-green-400">
-          Frontend Developer - Maeko Tech Solutions | Sep. 2021 - Nov. 2023
+          Frontend Developer - Maeko Tech Solutions | Sep. 2022 - Nov. 2023
         </span>
         <span className="text-green-400 sm:hidden text-lg">Maeko Tech Solutions</span>
         <span className="text-green-400 sm:hidden text-lg">Frontend Developer</span>

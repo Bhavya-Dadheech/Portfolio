@@ -7,9 +7,9 @@ const Contact = ({ innerRef }) => {
   return (
     <div ref={innerRef} className="flex flex-col gap-5 items-center p-0 sm:p-[5rem] pt-[0.5rem] mb-[5rem] sm:mb-0">
       <span className="w-[6rem] sm:w-[7rem] text-center p-2 bg-[#333333] rounded-xl text-xs sm:text-base text-white p-2">
-        Contact Me
+        Contact
       </span>
-      <span className="text-lg sm:text-3xl text-center text-green-400">Get in Touch with Me!</span>
+      <span className="text-lg sm:text-3xl text-center text-green-400">Let's Connect!</span>
       <div className="flex flex-row flex-wrap justify-center gap-1 sm:gap-5">
         <div className="flex flex-row gap-3 items-center justify-center">
           <a
